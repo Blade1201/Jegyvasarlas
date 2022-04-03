@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jegyvasarlas.css">
+    <title>Jegyvásárlás</title>
+</head>
+<body>
+    <h1>Bayern München vs Real Madrid</h1>
+    <p>Válassz az alábbi lehetőségek közül!:</p>
+    <img id="bayern" src="bayern.webp" alt="">
+    <img id="real" src="real.png" alt="">
+    <table>
+        <tr>
+            <td><label for="diak">Diák</label>
+                <input type="radio" name="feladat" id="diak">
+            </td>
+
+            <td><label for="felnott">Felnőtt</label>
+                <input type="radio" name="feladat" id="felnott">
+            </td>
+        </tr>
+        <tr>
+            <td>Ára: 900 Ft.</td>
+            <td>Ára: 1800 Ft.</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <label for="mennyiseg">Válasz mennyiséget!:</label>
+    <input id="mennyiseg" type="number" min="1" max="20" step="1" value="1">
+
+    
+    <br>
+    <button id="gomb">Vásárlás</button>
+    <br>
+    <div>
+        <p id="ervenyesseg"></p>
+        <p id="ide"></p>
+    </div>
+    
+
+    <script src="jegyvasarlas.js"></script>
+</body>
+</html>

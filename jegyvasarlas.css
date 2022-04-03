@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    font-size: 150%;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    font-weight: bold;
+    background-color: brown;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+#gomb{
+    font-size: 60%;
+    padding: 10px 8px;
+    border-radius: 12px;
+    border: 2px solid #15ff00;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+#gomb:hover{
+    background-color: #15ff00;
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.767), 0 17px 50px 0 rgba(255, 0, 0, 0.767);
+}
+#bayern{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+#real{
+    float: right;
+    width: 18%;
+}
